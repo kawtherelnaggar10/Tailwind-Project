@@ -7,151 +7,343 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <nav class="bg-gray-800 text-white py-4">
-            <div class="container mx-auto px-4 flex justify-between items-center">
-                <a href="#" class="text-xl font-bold uppercase">Koky Architects</a>
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:text-gray-400 hover:underline" target="_self">Home</a></li>
-                    <li><a href="projects.html" class="hover:text-gray-400 hover:underline" target="_blank">Projects</a></li>
-                    <li><a href="contact.html" class="hover:text-gray-400 hover:underline" target="_blank">Contact</a></li>            
-        </ul>
+   <header>
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4">
+
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
+                <a href="#" class="text-xl font-bold uppercase text-center lg:text-left">
+                    Koky Architects
+                </a>
+                <ul class="flex flex-col sm:flex-row items-center gap-4">
+                    <li>
+                        <a href="index.html" class="hover:text-gray-400 hover:underline">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html" class="hover:text-gray-400 hover:underline">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="hover:text-gray-400 hover:underline">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="flex items-center justify-center gap-3">
+                    <span class="text-xl">&#128269;</span>
+
+                    <button class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600 transition duration-300 uppercase">
+                        Download CV ↓
+                    </button>
+                </div>
+
             </div>
-                </nav>
-    </header>   
+
+        </div>
+    </nav>
+</header>
     <main>
-        <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 border">
-            <div class="p-10">
-    <h1 class="text-7xl font-black uppercase leading-none">
-        Architectural <br>
-        Integrity
-    </h1>
+       <section class="grid grid-cols-1 lg:grid-cols-2 border">
 
-    <p class="mt-6 font-semibold uppercase">
-        Spatial Logic.
-    </p>
-</div>
-<div class="flex flex-col justify-center p-10 border-l">
-    <p class="mb-6 text-gray-700">
-        We craft spaces that are thoughtful,
-        functional and deeply connected
-        to their context.
-    </p>
+    <!-- Left -->
+    <div class="p-6 sm:p-8 lg:p-10">
 
-    <button class="bg-black text-white px-6 py-3 hover:bg-gray-700 transition duration-300">
-        Explore Projects →
-    </button>
-</div>
-        </section>
-<div>
-        <img src="images/architecture.webp"class="w-full h-[500px] object-cover">
+        <p class="uppercase tracking-[0.3em] text-xs sm:text-sm text-gray-500">
+            Selected Works 2023–24
+        </p>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-7xl font-black uppercase leading-none mt-3">
+            Architectural <br>
+            Integrity
+        </h1>
+
+        <p class="mt-6 font-semibold uppercase text-sm sm:text-base">
+            Spatial Logic.
+        </p>
+
     </div>
 
+    <!-- Right -->
+    <div class="flex flex-col justify-center p-6 sm:p-8 lg:p-10 border-t lg:border-t-0 lg:border-l">
+
+        <p class="mb-8 text-gray-700 capitalize font-semibold leading-7">
+            Combine innovative design, functionality, and lasting quality.
+            Every project is carefully planned to respond to its environment
+            while delivering comfort, efficiency, and timeless visual appeal.
+            Our goal is to design buildings that inspire people and remain
+            relevant for generations.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+
+            <button class="bg-black text-white px-6 py-3 hover:bg-gray-700 transition duration-300 uppercase">
+                Explore Portfolio
+            </button>
+
+            <button class="bg-black text-white px-6 py-3 hover:bg-gray-700 transition duration-300 uppercase">
+                Our Philosophy
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+        
     <div  class="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  items-center text-center border-b-4 border-black p-20 ">
    <div>
+    <span class="text-base text-sm text-gray-500 uppercase font-semibold">
+    projects completed
+   </span>
 <h1 class="text-5xl font-black leading-none">
    42+
    </h1>
-   <div class="flex flex-col justify-center items-center space-y-2 p-2">
-   <span class="text-base font-black font-semibold uppercase">
-    projects 
-   </span>
-   <span class="text-base font-black font-semibold uppercase ">
-    completed
-   </span>
-   </div>
+   
    </div>
     <div>
+    <span class="text-base text-sm text-gray-500 uppercase font-semibold">
+ Global awards
+   </span>
 <h1 class="text-5xl font-black leading-none border-l-2 border-black">
    12
 </h1>
-   <div class="flex flex-col justify-center items-center space-y-2 p-2  border-l-2 border-black  border-l-2 border-black">
-   <span class="text-base font-black font-semibold uppercase">
- years of 
-   </span>
-   <span
-    class="text-base font-black font-semibold uppercase">
-    experience
-   </span>
-   </div>
    </div>
     <div>
+    <span class="text-base text-sm text-gray-500 uppercase font-semibold">
+technical certs
+   </span>
 <h1 class="text-5xl font-black leading-none border-l-2 border-black">
    03
    </h1>
- <div class="flex flex-col justify-center items-center space-y-2 p-2 border-l-2 border-black ">
-   <span class="text-base font-black font-semibold uppercase">
- design  
-   </span>
-   <span
-    class="text-base font-black font-semibold uppercase">
-    awards
-   </span>
-   </div>
    </div>
      <div>
+<span class="text-base text-sm text-gray-500 uppercase font-semibold">
+Design labs
+   </span>
 <h1 class="text-5xl font-black leading-none border-l-2 border-black">
    02
    </h1>
-     <div class="flex flex-col justify-center items-center space-y-2 p-2  border-l-2 border-black">
-   <span class="text-base font-black font-semibold uppercase">
-offices
-   </span>
-   <span
-    class="text-base font-black font-semibold uppercase">
-    worldwide
-   </span>
-   </div>
    </div>
     </div>
+<section class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 px-8 py-16">
+
+    <div class="relative">
+        <img src="images/architecture.webp"
+             alt="Project"
+             class="w-full h-[700px] object-cover">
+
+        <div class="absolute bottom-8 left-8 text-white">
+            <p class="uppercase tracking-widest text-sm">
+                Project 001
+            </p>
+
+            <h2 class="text-4xl font-black uppercase leading-tight mt-2">
+                The Monolith Pavilion
+            </h2>
+
+            <p class="mt-4 max-w-sm text-sm">
+                Exploration of concrete as a fluid yet structural
+                element in public transit hubs.
+            </p>
+
+            <a href="#" class="inline-block mt-6 uppercase font-bold hover:underline">
+                View Case Study →
+            </a>
+        </div>
+    </div>
+
+    <div class="grid grid-rows-[auto_1fr] gap-6">
+        <div class="bg-gray-100 p-8">
+
+            <p class="uppercase tracking-widest text-gray-500 text-sm">
+                Methodology
+            </p>
+
+            <h2 class="text-3xl font-black uppercase mt-3 leading-tight">
+                BIM Integration &
+                Structural Analytics
+            </h2>
+
+            <p class="text-gray-600 mt-6">
+                Every project follows a structured workflow that
+                combines creative thinking with technical precision.
+                From concept to completion, each detail is carefully
+                planned to deliver efficient and timeless architecture.
+            </p>
+
+          <div class="grid grid-cols-3 gap-6 mt-8">
+
     <div>
-           <h1 class="text-2xl font-black uppercase leading-none pt-10 pb-5 pl-2">
+        <p class="uppercase text-xs text-gray-500">CAD</p>
+
+        <div class="mt-2 h-[2px] bg-gray-300">
+            <div class="w-4/5 h-full bg-black"></div>
+        </div>
+    </div>
+
+    <div>
+        <p class="uppercase text-xs text-gray-500">3D Mapping</p>
+
+        <div class="mt-2 h-[2px] bg-gray-300">
+            <div class="w-5/6 h-full bg-black"></div>
+        </div>
+    </div>
+
+    <div>
+        <p class="uppercase text-xs text-gray-500">Sustainability</p>
+
+        <div class="mt-2 h-[2px] bg-gray-300">
+            <div class="w-3/4 h-full bg-black"></div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <div class="bg-gray-100 p-6 flex flex-col justify-between">
+                <div>
+                    <p class="uppercase tracking-widest text-gray-500 text-sm">
+                        Lab Archive
+                    </p>
+
+                    <h3 class="text-2xl font-black uppercase mt-2">
+                        Shadow Studies
+                    </h3>
+                </div>
+                <img src="images/1.jpg"
+                     class="w-full h-40 object-cover mt-8">
+            </div>
+
+            <div class="bg-black text-white flex flex-col justify-center items-center p-8">
+
+                <h3 class="text-3xl font-black uppercase text-center leading-tight">
+                    Join The <br>
+                    Architectural <br>
+                    Dialogue.
+                </h3>
+
+                <button class="mt-8 border border-white px-6 py-3 uppercase hover:bg-white hover:text-black transition duration-300">
+                    Submit Inquiry
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<div class="flex border-b-2 border-black items-center justify-between">
+
+<div class="p-10">
+    <p class="uppercase text-sm text-gray-500">
+    index
+</p>
+    <h1 class="text-4xl font-black uppercase leading-none ">
        current projects
     </h1>
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t-2 items-start  border-b-2 border-black uppercase pl-5 font-bold p-2">
-      <h2>project one</h2> 
-      <h2>2026</h2>  
-      <a href="#" class="text-xl text-blue-600 font-bold" target="_blank">&rarr;</a>
-    </div>
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border items-start border-b-2 border-black uppercase pl-5 font-bold p-2">
-      <h2>project two</h2> 
-      <h2>2025</h2>  
-      <a href="#" class="text-xl text-blue-600 font-bold" target="_blank">&rarr;</a>
+</div>
+<div class="flex flex-col items-center gap-2">
+    <p class="uppercase text-sm text-gray-500 font-semibold">
+    Sort by </p>
 
-    </div>
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border items-start  border-b-2 border-black uppercase pl-5 font-bold p-2">
-      <h2>project three</h2> 
-      <h2>2024</h2>  
-      <a href="#" class="text-xl text-blue-600 font-bold" target="_blank">&rarr;</a>
+    <span class="uppercase text-sm text-gray-500 font-semibold inline-block border-b-2 border-black ">
+        Year:2024</span>
+</div>
+</div>
+   <!-- Project 001 -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-t-2 border-b-2 border-black uppercase font-bold p-6 lg:p-10">
+
+    <h3>001</h3>
+
+    <h2>Vertex Housing Complex</h2>
+
+    <h2 class="text-sm text-gray-500">
+        Stockholm, SE
+    </h2>
+
+    <div class="flex flex-wrap gap-2 lg:col-span-2">
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Public
+        </button>
+
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Private
+        </button>
     </div>
 
+</div>
+
+<!-- Project 002 -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-black uppercase font-bold p-6 lg:p-10">
+
+    <h3>002</h3>
+
+    <h2>The Linear Observatory</h2>
+
+    <h2 class="text-sm text-gray-500">
+        Atacama, CL
+    </h2>
+
+    <div class="flex flex-wrap gap-2 lg:col-span-2">
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Public
+        </button>
+
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Private
+        </button>
     </div>
-    </main>
+
+</div>
+
+<!-- Project 003 -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-black uppercase font-bold p-6 lg:p-10">
+
+    <h3>003</h3>
+
+    <h2>Brutalist Atrium</h2>
+
+    <h2 class="text-sm text-gray-500">
+        Berlin, DE
+    </h2>
+
+    <div class="flex flex-wrap gap-2 lg:col-span-2">
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Public
+        </button>
+
+        <button class="bg-gray-400 text-black px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+            Private
+        </button>
+    </div>
+
+</div>
+
+    <div class="bg-black text-white p-10 text-center text-xl font-bold uppercase">
+stay  updated on the latest structural investigations
+<div class="mt-4">
+            <input type="email" class="px-10 py-2 rounded-l bg-black text-white focus:outline-none border-b-2 border-white placeholder-gray-900" placeholder="Enter your email"> &rarr;
+    </div>
+
+                <ul class="flex gap-4 justify-center mt-6 text-sm text-white">
+                    <li><a href="index.html" class="hover:text-gray-400 hover:underline" target="_self">journal</a></li>
+                    <li><a href="projects.html" class="hover:text-gray-400 hover:underline" target="_blank">Notes</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-400 hover:underline" target="_blank">twitter</a></li>            
+               </ul>
+                    
+            
+ </main>
     <footer class="bg-gray-800 text-white py-4">
-        <div class="flex space-x-4 justify-between items-center">
-        <div>
-            <h1 class="text-xl font-bold">Koky Architects</h1>
-        </div>
-        <div>
-            <div class="mx-auto px-4 flex justify-between items-center">
-                <ul class="flex flex-col space-y-2">
-                    <li><a href="index.html" class="hover:text-gray-400" target="_self">Home</a></li>
-                    <li><a href="projects.html" class="hover:text-gray-400" target="_blank">Projects</a></li>
-                    <li><a href="contact.html" class="hover:text-gray-400" target="_blank">Contact</a></li>            
-        </ul>
-            </div>
-        </div>
-        <div>
-                <ul class="flex flex-col space-y-2 capitalize">
-                    <li>Follow</li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">instagram</a></li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">twitter</a></li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">facebook</a></li>            
-                </ul>       
-     </div>
         <div class="mx-auto px-4 ">
             &copy; 2026 Koky Architects. All rights reserved.
-        </div>  
         </div>
         </footer>
 </body>
