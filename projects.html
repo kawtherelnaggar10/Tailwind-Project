@@ -7,36 +7,49 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <nav class="bg-gray-800 text-white py-4">
-            <div class="container mx-auto px-4 flex justify-between items-center">
-                <a href="#" class="text-xl font-bold uppercase">Koky Architects</a>
-                <ul class="flex space-x-4">
-                    <li><a href="index.html" class="hover:text-gray-400 hover:underline" target="_blank">Home</a></li>
-                    <li><a href="projects.html" class="hover:text-gray-400 hover:underline" target="_self">Projects</a></li>
-                    <li><a href="contact.html" class="hover:text-gray-400 hover:underline" target="_blank">Contact</a></li>            
-        </ul>
+<header>
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4">
+
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
+
+                <!-- Logo -->
+                <a href="#" class="text-xl font-bold uppercase text-center lg:text-left">
+                    Koky Architects
+                </a>
+                <div class="flex flex-col sm:flex-row items-center gap-4">
+
+                    <ul class="flex flex-col sm:flex-row gap-4 text-center">
+                        <li><a href="index.html" class="hover:text-gray-400 hover:underline">Home</a></li>
+                        <li><a href="projects.html" class="hover:text-gray-400 hover:underline">Projects</a></li>
+                        <li><a href="contact.html" class="hover:text-gray-400 hover:underline">Contact</a></li>
+                    </ul>
+
+                    <button class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600 transition duration-300 uppercase">
+                        Download CV ↓
+                    </button>
+
+                </div>
+
             </div>
-                </nav>
-    </header>   
-  
+
+        </div>
+    </nav>
+</header>
 <main class="container mx-auto px-4 py-8">
-      <div class="p-10">
+      <div class="p-10 border-l-4 border-black">
     <h1 class="text-4xl font-black uppercase leading-none">
-        selected works 
+        selected_works 
     </h1>
 <div class="flex justify-between p-10 border-l">
     <div>
-    <p class="mt-6 font-semibold uppercase">
-        a collection of spaces <br/>  built one purpose.
-    </p>
+    <p class="font-semibold uppercase w-1/3 text-gray-500">
+A focused investigation into modern architecture and structural precision.
+ We create spaces that combine innovative design, functionality, and lasting quality.
+  
+  </p>
     </div>
-    <div>
-    <p class="mt-6 font-semibold uppercase">
-        All Projects <a href="#" class="text-xl text-blue-600 font-bold" target="_blank">&rarr;</a>
 
-    </p>
-    </div>
 </div>
 </div>
 
@@ -46,13 +59,23 @@
         <img src="images/1.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+        <div class="flex justify-between items-start mt-6">
         <h2 class="text-xl font-bold uppercase">
             Modern Villa
         </h2>
+         <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_001
+        </span>
+        </div>
 
         <p class="text-gray-500">
-            Residential • 2025
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+       <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -61,15 +84,26 @@
         <img src="images/2.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+        <div class="flex justify-between items-start mt-6">
         <h2 class="text-xl font-bold uppercase">
           Glass House
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_002
+        </span>
+        </div>
 
         <p class="text-gray-500">
-           Private Residence 2026
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
+</figure>
 </figure>
 
 <figure class="group">
@@ -77,13 +111,23 @@
         <img src="images/3.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+          <div class="flex justify-between items-start mt-6">
+         <h2 class="text-xl font-bold uppercase">
         Horizon Tower
          </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_003
+        </span>
+        </div>
 
         <p class="text-gray-500">
-           Commercial • 2024
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -93,13 +137,24 @@
         <img src="images/4.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+        
+ <div class="flex justify-between items-start mt-6">
         <h2 class="text-xl font-bold uppercase">
         Concrete Pavilion
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_004
+        </span>
+        </div>
 
         <p class="text-gray-500">
-            Cultural Space • 2025
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -109,12 +164,24 @@
         <img src="images/5.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+      
+        <div class="flex justify-between items-start mt-6">
+          <h2 class="text-xl font-bold uppercase">
         Urban Residence
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_005
+        </span>
+        </div>
+
         <p class="text-gray-500">
-            Cairo, Egypt • 2026
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -125,26 +192,24 @@
         <img src="images/6.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+        
+         <div class="flex justify-between items-start mt-6">
+         <h2 class="text-xl font-bold uppercase">
          Skyline Office   
         </h2>
+       <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_006
+        </span>
+        </div>
+
         <p class="text-gray-500">
-            Office Building • 2025 
-        </p>
-    </figcaption>
-    </a>
-</figure>
-<figure class="group">
-        <a href="#" target="_blank" title="Coastal Pavilion">
-        <img src="images/7.jpg" class="w-full h-72 object-cover group-hover:scale-105
-        transition-transform duration-300">
-         <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
-         Coastal Pavilion
-        </h2>
-        <p class="text-gray-500">
-            Beachfront Home • 2024
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -153,12 +218,24 @@
         <img src="images/8.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+       
+        <div class="flex justify-between items-start mt-6">
+         <h2 class="text-xl font-bold uppercase">
          The Brick Loft   
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_007
+        </span>
+        </div>
+
         <p class="text-gray-500">
-           Industrial Residence • 2026
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -167,42 +244,75 @@
         <img src="images/9.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+      
+       <div class="flex justify-between items-start mt-6">
         <h2 class="text-xl font-bold uppercase">
         Aurora House
         </h2> 
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_008
+        </span>
+        </div>
+
         <p class="text-gray-500">
-           Contemporary Home • 2025
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
-</a>
+    </a>
 </figure>
 <figure class="group">
         <a href="#" target="_blank" title="Courtyard House">
         <img src="images/10.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+        
+<div class="flex justify-between items-start mt-6">
+       <h2 class="text-xl font-bold uppercase">
            Courtyard House
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_009
+        </span>
+        </div>
 
         <p class="text-gray-500">
-            Residential • 2025
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
-</a>
+    </a>
 </figure>
 <figure class="group">
     <a href="#" target="_blank" title="Riverside Villa">
         <img src="images/11.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+        <div class="flex justify-between items-start mt-6">
         <h2 class="text-xl font-bold uppercase">
            Riverside Villa
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_10
+        </span>
+        </div>
 
         <p class="text-gray-500">
-         Luxury Residence • 2026
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+       <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -211,12 +321,24 @@
         <img src="images/12.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
+        
+       <div class="flex justify-between items-start mt-6">
         <h2 class="text-lg font-bold uppercase">
         Oakwood Residence
         </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_11
+        </span>
+        </div>
+
         <p class="text-gray-500">
-       Sustainable Home  • 2026
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -226,13 +348,76 @@
         <img src="images/13.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+    
+        <div class="flex justify-between items-start mt-6">
+          <h2 class="text-xl font-bold uppercase">
             City Loft
         </h2>
 
+      <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_12
+        </span>
+        </div>
+
         <p class="text-gray-500">
-         Urban Apartment • 2025
-        </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+       <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
+    </figcaption>
+    </a>
+</figure>
+<figure class="group">
+        <a href="#" target="_blank" title="Oakwood Residence">
+        <img src="images/12.jpg" class="w-full h-72 object-cover group-hover:scale-105
+        transition-transform duration-300">
+         <figcaption class="mt-4">
+        <div class="flex justify-between items-start mt-6">
+         <h2 class="text-lg font-bold uppercase">
+        Oakwood Residence
+        </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_13
+        </span>
+        </div>
+
+        <p class="text-gray-500">
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
+    </figcaption>
+    </a>
+</figure>
+<figure class="group">
+        <a href="#" target="_blank" title="Oakwood Residence">
+        <img src="images/12.jpg" class="w-full h-72 object-cover group-hover:scale-105
+        transition-transform duration-300">
+         <figcaption class="mt-4">
+
+        <div class="flex justify-between items-start mt-6">
+       <h2 class="text-lg font-bold uppercase">
+        Oakwood Residence
+        </h2>
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_14
+        </span>
+        </div>
+
+        <p class="text-gray-500">
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+       <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
@@ -241,59 +426,60 @@
         <img src="images/14.jpg" class="w-full h-72 object-cover group-hover:scale-105
         transition-transform duration-300">
          <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
+        <div class="flex justify-between items-start mt-6">
+         <h2 class="text-xl font-bold uppercase">
         Lakeside Retreat   
          </h2>
-
+  <span class="border border-gray-300 px-3 py-1 text-xs font-semibold text-gray-500">
+            ID_15
+        </span>
+        </div>
         <p class="text-gray-500">
-            Waterfront Residence • 2025
-        </p>
-    </figcaption>
-    </a>
-</figure>
-<figure class="group">
-    <a href="#" target="_blank" title="Emerald Tower">
-        <img src="images/15.jpg" class="w-full h-72 object-cover group-hover:scale-105
-        transition-transform duration-300">
-         <figcaption class="mt-4">
-        <h2 class="text-xl font-bold uppercase">
-        Emerald Tower
-        </h2>
-
-        <p class="text-gray-500">
-        Mixed Development • 2026   
-         </p>
+         Exploration of exposed concrete as a sculptural architectural element, 
+         balancing light, shadow, and structural precision.   
+       </p>
+     <div class="flex gap-6 mt-10 text-xs uppercase font-semibold tracking-wider text-gray-500">
+        <span>#HIGHRISE </span>
+        <span>#SUSTAINABILITY</span>
+    </div>
     </figcaption>
     </a>
 </figure>
     </div>
 </main>
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 px-8 py-4">
+
+    <div class="border-t-2 border-gray-400 flex flex-col sm:flex-row gap-4 items-start sm:items-center pt-4">
+
+        <h1 class="text-sm font-bold uppercase">
+            archive_section_start
+        </h1>
+
+        <h1 class="text-sm font-bold uppercase">
+            viewing_page_01_of_04
+        </h1>
+
+    </div>
+
+    <button class="bg-gray-900 text-white px-4 py-2 hover:bg-gray-600 transition duration-300 uppercase">
+        LOAD_PREVIOUS_ENTRIES
+    </button>
+
+</div>
   
-    <footer class="bg-gray-800 text-white py-4">
-        <div class="flex space-x-4 justify-between items-center">
-        <div>
-            <h1 class="text-xl font-bold">Koky Architects</h1>
-        </div>
-        <div>
-            <div class="mx-auto px-4 flex justify-between items-center">
-                <ul class="flex flex-col space-y-2">
-                    <li><a href="index.html" class="hover:text-gray-400" target="_blank">Home</a></li>
-                    <li><a href="projects.html" class="hover:text-gray-400" target="_self">Projects</a></li>
-                    <li><a href="contact.html" class="hover:text-gray-400" target="_blank">Contact</a></li>            
-        </ul>
-            </div>
-        </div>
-        <div>
-                <ul class="flex flex-col space-y-2 capitalize">
-                    <li>Follow</li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">instagram</a></li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">twitter</a></li>
-                    <li><a href="#" class="hover:text-gray-400" target="_blank">facebook</a></li>            
-                </ul>       
-     </div>
-        <div class="mx-auto px-4 ">
+    <footer class="bg-gray-800 text-white ">
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
+       <div>
             &copy; 2026 Koky Architects. All rights reserved.
         </div>  
+        <div>
+                <ul class="flex gap-2 capitalize">
+                    <li><a href="#" class="hover:text-gray-400 hover:underline" target="_blank">instagram</a></li>
+                    <li><a href="#" class="hover:text-gray-400 hover:underline" target="_blank">twitter</a></li>
+                    <li><a href="#" class="hover:text-gray-400 hover:underline" target="_blank">facebook</a></li>            
+                </ul>       
+     </div>
+        
         </div>
         </footer>
 </body>
