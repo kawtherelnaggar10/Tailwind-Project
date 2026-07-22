@@ -10,9 +10,10 @@
     --color-muted: #9CA3AF;/* gray-400 */
     --color-secondary-text: #6B7280; /* gray-500 */
     --color-dark: #1F2937; /* gray-800 */
-    --color-basicCol: #000000;   /* black */
+    --color-primary: #000000;   /* black */
     --color-lighter: #FFFFFF; /* white */
-    --color-light: #F3F4F6; /* gray-100 */
+     --color-button-dark: #D1D5DB; /* gray-300 */
+
           }
 </style>
 </head>
@@ -48,7 +49,7 @@
                 <div class="flex flex-col lg:flex-row md:flex-row sm:flex-col items-center gap-4">
                     <span class="text-xl">&#128269;</span>
 
-                    <button class="bg-dark text-lighter px-4 py-2 rounded hover:bg-gray-600 transition duration-300 uppercase">
+                    <button class="bg-secondary-text text-lighter px-4 py-2 rounded hover:bg-button-dark hover:text-primary transition duration-300 uppercase">
                         Download CV ↓
                     </button>
                 </div>
@@ -91,11 +92,11 @@
 
         <div class="flex flex-col sm:flex-row gap-4">
 
-            <button class="bg-basicCol text-lighter px-6 py-3 hover:bg-dark transition duration-300 uppercase">
+            <button class="bg-primary text-lighter px-6 py-3 hover:bg-dark transition duration-300 uppercase">
                 Explore Portfolio
             </button>
 
-            <button class="bg-basicCol text-lighter px-6 py-3 hover:bg-dark transition duration-300 uppercase">
+            <button class="bg-primary text-lighter px-6 py-3 hover:bg-dark transition duration-300 uppercase">
                 Our Philosophy
             </button>
 
@@ -105,12 +106,12 @@
 
 </section>
         
-    <div  class="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  items-center text-center border-b-4 border-basicCol p-20 ">
+    <div  class="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  items-center text-center border-b-1 border-primary p-20 ">
    <div>
     <span class="text-base text-sm text-secondary-text uppercase font-semibold">
     projects completed
    </span>
-<h1 class="text-5xl font-bold leading-none">
+<h1 class="text-5xl font-bold leading-none italic">
    42+
    </h1>
    
@@ -119,7 +120,7 @@
     <span class="text-base text-sm text-secondary-text uppercase font-semibold">
  Global awards
    </span>
-<h1 class="text-5xl font-bold leading-none border-l-2 border-basicCol">
+<h1 class="text-5xl font-bold leading-none border-l-2 border-primary italic">
    12
 </h1>
    </div>
@@ -127,7 +128,7 @@
     <span class="text-base text-sm text-secondary-text uppercase font-semibold">
 technical certs
    </span>
-<h1 class="text-5xl font-bold leading-none border-l-2 border-basicCol">
+<h1 class="text-5xl font-bold leading-none border-l-2 border-primary italic">
    03
    </h1>
    </div>
@@ -135,7 +136,7 @@ technical certs
 <span class="text-base text-sm text-secondary-text uppercase font-semibold">
 Design labs
    </span>
-<h1 class="text-5xl font-bold leading-none border-l-2 border-basicCol">
+<h1 class="text-5xl font-bold leading-none border-l-2 border-primary italic">
    02
    </h1>
    </div>
@@ -192,7 +193,7 @@ Design labs
         <p class="uppercase text-xs text-secondary-text">CAD</p>
 
         <div class="mt-2 h-[2px] bg-muted">
-            <div class="w-4/5 h-full bg-basicCol"></div>
+            <div class="w-4/5 h-full bg-primary"></div>
         </div>
     </div>
 
@@ -200,7 +201,7 @@ Design labs
         <p class="uppercase text-xs text-secondary-text">3D Mapping</p>
 
         <div class="mt-2 h-[2px] bg-muted">
-            <div class="w-5/6 h-full bg-basicCol"></div>
+            <div class="w-5/6 h-full bg-primary"></div>
         </div>
     </div>
 
@@ -208,7 +209,7 @@ Design labs
         <p class="uppercase text-xs text-secondary-text">Sustainability</p>
 
         <div class="mt-2 h-[2px] bg-muted">
-            <div class="w-3/4 h-full bg-basicCol"></div>
+            <div class="w-3/4 h-full bg-primary"></div>
         </div>
     </div>
 
@@ -231,7 +232,7 @@ Design labs
                      class="w-full h-40 object-cover mt-8">
             </div>
 
-            <div class="bg-basicCol text-lighter flex flex-col justify-center items-center p-8">
+            <div class="bg-primary text-lighter flex flex-col justify-center items-center p-8">
 
                 <h3 class="text-2xl font-bold uppercase text-center leading-tight">
                     Join The <br>
@@ -239,7 +240,7 @@ Design labs
                     Dialogue.
                 </h3>
 
-                <button class="mt-8 border border-lighter px-6 py-3 uppercase hover:bg-lighter hover:text-basicCol transition duration-300">
+                <button class="mt-8 border border-lighter px-6 py-3 uppercase hover:bg-lighter hover:text-primary transition duration-300">
                     Submit Inquiry
                 </button>
 
@@ -249,7 +250,7 @@ Design labs
     </div>
 </div>
 </section>
-<div class="flex flex-col md:flex-row lg:flex-row sm:flex-row border-b-2 border-basicCol items-center justify-between">
+<div class="flex flex-col md:flex-row lg:flex-row sm:flex-row border-b-2 border-primary items-center justify-between">
 
 <div class="p-10">
     <p class="uppercase text-sm text-secondary-text">
@@ -264,12 +265,12 @@ Design labs
     Sort by </p>
 
     <span class="uppercase text-sm text-secondary-text font-semibold inline-block
-     lg:border-b-2 lg:border-basicCol md:border-b-2 md:border-basicCol sm:border-b-2 sm:border-basicCol 
+     lg:border-b-2 lg:border-primary md:border-b-2 md:border-primary sm:border-b-2 sm:border-primary 
      border:none ">
         Year:2024</span>
 </div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-t-2 border-b-2 border-basicCol uppercase font-bold p-6 lg:p-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-t-2 border-b-2 border-primary uppercase font-bold p-6 lg:p-10">
 
     <h3>001</h3>
 
@@ -280,18 +281,18 @@ Design labs
     </h2>
 
     <div class="flex flex-wrap gap-2 lg:col-span-2">
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
             Public
         </button>
 
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
             Private
         </button>
     </div>
 
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-basicCol uppercase font-bold p-6 lg:p-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-primary uppercase font-bold p-6 lg:p-10">
 
     <h3>002</h3>
 
@@ -302,18 +303,18 @@ Design labs
     </h2>
 
     <div class="flex flex-wrap gap-2 lg:col-span-2">
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
             Public
         </button>
 
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
             Private
         </button>
     </div>
 
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-basicCol uppercase font-bold p-6 lg:p-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-center border-b-2 border-primary uppercase font-bold p-6 lg:p-10">
 
     <h3>003</h3>
 
@@ -324,15 +325,15 @@ Design labs
     </h2>
 
     <div class="flex flex-wrap gap-2 lg:col-span-2">
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">
             Public
         </button>
 
-        <button class="bg-muted text-basicCol px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">            Private
+        <button class="bg-muted text-primary px-4 py-1 rounded hover:bg-gray-200 transition duration-300 uppercase">            Private
         </button>
     </div>
 </div>
-<div class="bg-basicCol py-20">
+<div class="bg-primary py-20">
 
 <div class="w-full max-w-3xl mx-auto px-1 md:px-0">
         <h2 class="text-lighter text-center uppercase text-[20px]
@@ -372,7 +373,7 @@ Design labs
 
 </div>
  </main>
-    <footer class="bg-dark text-lighter py-4">
+    <footer class="bg-dark text-lighter py-4 font-bold">
         <div class="mx-auto px-4 ">
             &copy; 2026 Koky Architects. All rights reserved.
         </div>

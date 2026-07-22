@@ -10,8 +10,10 @@
     --color-muted: #9CA3AF;/* gray-400 */
     --color-secondary-text: #6B7280; /* gray-500 */
     --color-dark: #1F2937; /* gray-800 */
-    --color-basicCol: #000000;   /* black */
+    --color-primary: #000000;   /* black */
     --color-lighter: #FFFFFF; /* white */
+     --color-button-dark: #D1D5DB; /* gray-300 */
+
           }
 </style>
 </head>
@@ -32,7 +34,7 @@
                         <li><a href="contact.html" class="hover:text-muted hover:underline">Contact</a></li>
                     </ul>
 
-                    <button class="bg-dark text-lighter px-4 py-2 rounded hover:bg-secondary-text transition duration-300 uppercase">
+                   <button class="bg-secondary-text text-lighter px-4 py-2 rounded hover:bg-button-dark hover:text-primary transition duration-300 uppercase">
                         Download CV ↓
                     </button>
 
@@ -44,8 +46,8 @@
     </nav>
 </header>
 <main class="container mx-auto px-4 py-8">
-      <div class="p-10 border-l-4 border-basicCol">
-    <h1 class="text-4xl font-basicCol uppercase leading-none">
+      <div class="p-10 border-l-4 border-primary">
+    <h1 class="text-4xl font-primary uppercase leading-none">
         selected_works 
     </h1>
 <div class="flex justify-between p-10 border-l">
@@ -475,7 +477,7 @@ A focused investigation into modern architecture and structural precision.
 </div>
   
    
-    <footer class="bg-dark text-lighter p-10 ">
+    <footer class="bg-dark text-lighter p-10 font-bold">
             <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
        <div>
             &copy; 2026 Koky Architects. All rights reserved.

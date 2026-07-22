@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
+   <style type="text/tailwindcss">
      @theme{
     --color-muted: #9CA3AF;/* gray-400 */
     --color-secondary-text: #6B7280; /* gray-500 */
     --color-dark: #1F2937; /* gray-800 */
-    --color-basicCol: #000000;   /* black */
+    --color-primary: #000000;   /* black */
     --color-lighter: #FFFFFF; /* white */
+    --color-button-dark: #D1D5DB; /* gray-300 */
+
           }
 </style>
 </head>
@@ -34,7 +35,7 @@
                         <li><a href="contact.html" class="hover:text-muted hover:underline">Contact</a></li>
                     </ul>
 
-                    <button class="bg-gray-700 text-lighter px-4 py-2 rounded hover:bg-gray-600 transition duration-300 uppercase">
+                     <button class="bg-secondary-text text-lighter px-4 py-2 rounded hover:bg-button-dark hover:text-primary transition duration-300 uppercase">
                         Download CV ↓
                     </button>
 
@@ -53,11 +54,11 @@
         03//Inquiry_Node
     </p>
 
-    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-basicCol uppercase leading-none mt-3">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:text-primary uppercase leading-none mt-3">
         Architectural
     </h1>
 
-    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-basicCol uppercase leading-none underline decoration-4 decoration-muted text-gray-600 italic">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:text-secondary-text text-secondary-text uppercase leading-none underline decoration-4 decoration-muted italic">
         Mark
     </h1>
 
@@ -72,10 +73,10 @@
     </p>
 
 </div>
-<section class="border-t-2 border-b-2 border-gray-300 py-16">
+<section class="border-t-2 border-b-2 border-button-dark py-16">
 
 <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 px-6 lg:px-10">
-    <div class="border border-gray-300 p-8">
+    <div class="border border-button-dark p-8">
 
         <form action="savecontact.php" method="post">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -87,7 +88,7 @@
                     <input
                         type="text"
                         placeholder="enter your name"
-                        class="w-full border border-gray-300 px-4 py-3 uppercase">
+                        class="w-full border border-button-dark px-4 py-3 uppercase">
                 </div>
 
                 <div>
@@ -98,7 +99,7 @@
                     <input
                         type="email"
                         placeholder="client@domain.com"
-                        class="w-full border border-gray-300 px-4 py-3 uppercase">
+                        class="w-full border border-button-dark px-4 py-3 uppercase">
                 </div>
             </div>
 
@@ -110,7 +111,7 @@
                 <input
                     type="text"
                     placeholder="Project Collaboration"
-                  class="w-full border border-gray-300 px-4 py-3 uppercase">
+                  class="w-full border border-button-dark px-4 py-3 uppercase">
             </div>
 
             <div class="mt-8">
@@ -120,11 +121,11 @@
                 <textarea
                     rows="6"
                     placeholder="Describe the scope..."
-                    class="w-full border border-gray-300 px-4 py-3 uppercase"></textarea>
+                    class="w-full border border-button-dark px-4 py-3 uppercase"></textarea>
             </div>
 
             <button
-                class="mt-10 bg-basicCol text-lighter px-10 py-4 uppercase hover:bg-gray-700 transition duration-300">
+                class="mt-10 bg-primary text-lighter px-10 py-4 uppercase hover:bg-dark transition duration-300">
                 Initialize Contact →
             </button>
         </form>
@@ -137,7 +138,7 @@
             Geographic Node
         </p>
 
-        <h2 class="text-3xl font-basicCol uppercase mt-2">
+        <h2 class="text-3xl font-bold uppercase mt-2">
             Metro_Station_404
         </h2>
 
@@ -150,7 +151,7 @@
 
     <iframe
         src="https://www.google.com/maps?q=Canary+Wharf,+London+E14+5AB,+United+Kingdom&output=embed"
-        class="w-full h-64 border border-gray-300"
+        class="w-full h-64 border border-button-dark"
         loading="lazy"
         allowfullscreen>
     </iframe>
@@ -161,7 +162,7 @@
 
             <div class="flex items-center gap-3 mb-5">
 
-                <div class="w-10 h-[2px] bg-basicCol"></div>
+                <div class="w-10 h-[2px] bg-primary"></div>
 
                 <p class="uppercase text-xs font-bold">
                     Direct Reach
@@ -190,11 +191,11 @@
             </div>
 
         </div>
-        <div class="mt-10 border-t pt-8">
+        <div class="mt-7  pt-8">
 
             <div class="flex items-center gap-3 mb-5">
 
-                <div class="w-10 h-[2px] bg-basicCol"></div>
+                <div class="w-10 h-[2px] bg-primary"></div>
 
                 <p class="uppercase text-xs font-bold">
                     Digital Presence
@@ -205,26 +206,26 @@
             <div class="flex flex-wrap gap-4">
 
                 <button 
-          class="border-2 border-basicCol px-6 py-3 uppercase
+          class="border-2 border-primary px-6 py-3 uppercase
            transition-all duration-300
-           hover:bg-basicCol
+           hover:bg-primary
            hover:text-lighter
            hover:border-[rgb(48,180,188)]">
                     Instagram ↗
                 </button>
 
                 <button 
-          class="border-2 border-basicCol px-6 py-3 uppercase
+          class="border-2 border-primary px-6 py-3 uppercase
            transition-all duration-300
-           hover:bg-basicCol
+           hover:bg-primary
            hover:text-lighter
           hover:border-[rgb(48,180,188)]">
                     LinkedIn ↗
                 </button>
 <button
-    class="border-2 border-basicCol px-6 py-3 uppercase
+    class="border-2 border-primary px-6 py-3 uppercase
            transition-all duration-300
-           hover:bg-basicCol
+           hover:bg-primary
            hover:text-lighter
           hover:border-[rgb(48,180,188)]">
     GitHub ↗
@@ -237,7 +238,7 @@
 </section>
 </main>
   
-    <footer class="bg-dark text-lighter p-10 ">
+    <footer class="bg-dark text-lighter p-10  font-bold">
             <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
        <div>
             &copy; 2026 Koky Architects. All rights reserved.
